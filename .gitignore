@@ -1,0 +1,14 @@
+# 数据 / 产物(不进仓库;GitHub 也拒收大文件)
+data/
+__pycache__/
+*.pyc
+
+# 录制 / 中间产物 / 结果(若散落在顶层也排除)
+*.hdf5
+*.zip
+*.npy
+*.png
+T_Br_P0_*.json
+*_points.json
+*_packed.hdf5
+*.report.txt
